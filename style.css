@@ -1,0 +1,224 @@
+body{
+	  margin:0px;
+    padding:20px;
+	  background-color: orange;
+    width :100%;
+	  display: grid;
+    grid-template-columns: auto auto auto ;
+    height:95vh;
+   
+}
+.div1{ width: 200px; 
+       height: 200px;
+       border-radius: 50%;
+	 	   border: 2px solid black;
+       animation: colorChange 10s infinite;
+		   position:relative;
+       
+      }
+	  
+.div2{ width: 200px; 
+       height: 200px; 
+       border-radius: 50%;
+       border: 2px solid black;
+       animation: colorChange2 10s infinite;	
+		   position:relative;
+      
+      }
+.div3{ width: 200px; 
+       height: 200px; 
+       border-radius: 50%;
+		   border: 2px solid black;
+       animation: colorChange3 10s infinite;	
+	     position:relative;
+      }	  
+	  
+.div4{ width: 200px; 
+       height: 200px; 
+       border-radius: 50%;
+		   border: 2px solid black;
+       animation: colorChange4 10s infinite;
+		   position:relative;
+      }	  
+	  
+.div5{ width: 200px; 
+       height: 200px; 
+       border-radius: 50%;
+		   border: 2px solid black;
+       animation: colorChange5 10s infinite;
+       position:relative;		
+      }	  
+.div6{ width: 200px; 
+       height: 200px; 
+       border-radius: 50%;
+		   border: 2px solid black;
+       animation: colorChange6 10s infinite;
+       position:relative;		
+      }	  
+     
+      @keyframes colorChange {
+        0% {
+          background-color: white;
+          left: 0px;
+          top: 0px;
+        }
+        30% {
+          background-color: yellow;
+          top: 400px;
+          left :0px;
+        }
+        60%{
+          background-color: blue;
+          left: 555px;
+          top: 400px;
+        }
+        80%{
+          background-color: black;
+          left:0px;
+          top:400px;
+        }
+       100%{
+		      background-color: white;
+          left: 0px;
+          top: 0px;
+				}
+     }
+	  
+	   @keyframes colorChange2 {
+        0% {
+          background-color: white;
+          left: 0px;
+          top: 0px;
+        }
+        30% {
+          background-color: red;
+          top: 0px;
+          left:-555px;
+        }
+        60%{
+          background-color: blue;
+          left: -555px;
+          top: 400px;
+        }
+        80%{
+          background-color: greenyellow;
+          top: 0px;
+          left:-555px;
+        }
+       100%{
+		      background-color: white;
+          left: 0px;
+          top: 0px;
+				}
+     }
+	  
+	   @keyframes colorChange3 {
+      0% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+      30% {
+        background-color: red;
+        left: -555px;
+        top:0px;
+      }
+     60%{
+        background-color: green;
+        left: -1100px;
+        top: 0px;
+      }
+      80%{
+        background-color: greenyellow;
+        left: -555px;
+        top:0px;
+      }
+      100%{
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+   }
+	   @keyframes colorChange4 {
+      0% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+      30% {
+        background-color: yellow;
+        top:0px ;
+        left: 555px;
+      }
+      60%{
+        background-color: blue;
+        top:0px;
+        left: 1100px;
+      }
+      80%{
+          background-color: black;
+          top:0px ;
+          left: 555px;
+      }
+     100%{
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+   }
+   @keyframes colorChange5 {
+    0% {
+      background-color: white;
+      left: 0px;
+      top: 0px;
+    }
+    30% {
+      background-color: yellow;
+      top: 0px;
+      left: 555px;
+    }
+    60%{
+      background-color: green;
+      left: 555px;
+      top: -400px;
+    }
+    80%{
+      background-color: black;
+      top: 0px;
+      left: 555px;
+    }
+   100%{
+      background-color: white;
+      left: 0px;
+      top: 0px;
+    }
+ }
+     
+   
+	   @keyframes colorChange6 {
+      0% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+      30% {
+        background-color: red;
+        left: 0px;
+        top:-400px;
+      }
+     60%{
+        background-color: green;
+        left: -555px;
+        top: -400px;
+      }
+      80%{
+        background-color: greenyellow;
+        left: 0px;
+        top:-400px;
+      }
+      100%{
+        background-color: white;
+        left: 0px;
+        top: 0px;
+      }
+   }
